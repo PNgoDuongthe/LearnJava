@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class exam {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int x = random.nextInt();
+        Math.abs(x);
+        System.out.println(x);
+        boolean y = random.nextBoolean();
+        System.out.println(y);
+    }
+
+}
